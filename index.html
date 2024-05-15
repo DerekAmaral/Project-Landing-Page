@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Análise e Desenvolvimento de Sistemas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Análise e Desenvolvimento de Sistemas
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#materia1">Algoritmos e Lógica de Programação</a></li>
+                <li><a href="#materia2">Banco de Dados</a></li>
+                <li><a href="#materia3">Engenharia de Software</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Sobre o Curso</h2>
+            <p>O curso de Análise e Desenvolvimento de Sistemas forma profissionais capacitados para projetar, desenvolver, implementar e gerenciar sistemas de informação. Aprenda sobre programação, banco de dados, engenharia de software e muito mais!</p>
+        </section>
+
+        <section id="materia1">
+            <h2>Algoritmos e Lógica de Programação</h2>
+            <img src="./img/logica-de-programacao.webp">
+            <p>Nesta disciplina, você aprenderá os fundamentos da lógica de programação e desenvolverá habilidades para criar algoritmos eficientes.</p>
+
+            <h3>Simulado de Algoritmos e Lógica de Programação</h3>
+            <p>Teste seus conhecimentos! Responda às 8 questões a seguir e descubra seu nível de conhecimento em Algoritmos e Lógica de Programação.</p>
+
+            <form id="simulado1" class="simulado">
+                <ul>
+                    <li>
+                        <p class="pergunta">Qual a estrutura de controle que permite repetir um bloco de código até que uma condição seja satisfeita?</p>
+                        <input type="radio" name="q1" value="a" id="q1a">
+                        <label for="q1a">Sequência</label><br>
+                        <input type="radio" name="q1" value="b" id="q1b">
+                        <label for="q1b">Seleção</label><br>
+                        <input type="radio" name="q1" value="c" id="q1c">
+                        <label for="q1c">Repetição</label><br>
+                        <input type="radio" name="q1" value="d" id="q1d">
+                        <label for="q1d">Nenhuma das alternativas</label><br>
+                    </li>
+                    <li>
+                        <p class="pergunta">Qual a função da instrução 'break' em um loop 'while'?</p>
+                        <input type="radio" name="q2" value="a" id="q1ea">
+                        <label for="q1ea">Fazer o loop ser executado infinitamente</label><br>
+                        <input type="radio" name="q2" value="b" id="q1eb">
+                        <label for="q1eb">Fazer o loop ser executado uma única vez</label><br>
+                        <input type="radio" name="q2" value="c" id="q1ec">
+                        <label for="q1ec">Sair do loop antes que a condição seja verificada novamente</label><br>
+                        <input type="radio" name="q2" value="d" id="q1ed">
+                        <label for="q1ed">Pular para a próxima iteração do loop</label><br>
+                    </li>
+                    <li>
+                        <p class="pergunta">Qual a diferença entre os operadores '==' e '===' em JavaScript?</p>
+                        <input type="radio" name="q3" value="a" id="q3a">
+                        <label for="q3a">Verificam apenas se os valores são iguais</label><br>
+                        <input type="radio" name="q3" value="b" id="q3b">
+                        <label for="q3b">Verificam se os valores e os tipos são iguais</label><br>
+                    </li>
+                    <li>
+                        <p class="pergunta">O que é um algoritmo recursivo?</p>
+                        <input type="radio" name="q4" value="a" id="q4a">
+                        <label for="q4a">Um algoritmo que chama a si mesmo até que uma condição seja satisfeita</label><br>
+                        <input type="radio" name="q4" value="b" id="q4b">
+                        <label for="q4b">Um algoritmo que utiliza loops aninhados</label><br>
+                        <input type="radio" name="q4" value="c" id="q4c">
+                        <label for="q4c">Um algoritmo que utiliza apenas estruturas condicionais</label><br>
+                        <input type="radio" name="q4" value="d" id="q4d">
+                        <label for="q4d">Nenhuma das alternativas</label><br>
+                    </li>
+                    <li>
+                        <p class="pergunta">Qual a estrutura de dados mais adequada para armazenar uma coleção de elementos onde a ordem de inserção é importante?</p>
+                        <input type="radio" name="q5" value="a" id="q5a">
+                        <label for="q5a">Pilha (Stack)</label><br>
+                        <input type="radio" name="q5" value="b" id="q5b">
+                        <label for="q5b">Fila (Queue)</label><br>
+                        <input type="radio" name="q5" value="c" id="q5c">
+                        <label for="q5c">Lista (List)</label><br>
+                        <input type="radio" name="q5" value="d" id="q5d">
+                        <label for="q5d">Conjunto (Set)</label><br>
+                    </li>
+                </ul>
+                <div class="simulado" id="simulado1">
+                <button onclick="corrigirSimulado1()">Corrigir</button>
+                <div class="feedback" id="feedbackSimulado1">
+                    <p></p>
+                    <ul></ul>
+                </div>
+            </div> 
+
+            </form>
+        </section>
+
+        <section id="materia2">
+            <h2>Banco de Dados</h2>
+            <img src="./img/banco_de_dados-removebg-preview.png">
+            
+            <p>Nesta disciplina, você aprenderá a modelar, projetar e gerenciar bancos de dados relacionais e não relacionais.</p>
+
+            <h3>Simulado de Banco de Dados</h3>
+            <p>Teste seus conhecimentos! Responda às questões a seguir e descubra seu nível de conhecimento em Banco de Dados.</p>
+            <form id="simulado2" class="simulado">
+            <ul>
+                <li>
+                    <p class="pergunta">Qual a função do comando SQL "SELECT"?</p>
+                    <input type="radio" name="q6" value="a" id="q6a">
+                    <label for="q6a">Inserir dados em uma tabela</label><br>
+                    <input type="radio" name="q6" value="b" id="q6b">
+                    <label for="q6b">Atualizar dados em uma tabela</label><br>
+                    <input type="radio" name="q6" value="c" id="q6c">
+                    <label for="q6c">Recuperar dados de uma tabela</label><br>
+                    <input type="radio" name="q6" value="d" id="q6d">
+                    <label for="q6d">Excluir dados de uma tabela</label><br>
+                </li>
+                <li>
+                    <p class="pergunta">O que é uma chave primária em um banco de dados?</p>
+                    <input type="radio" name="q7" value="a" id="q7a">
+                    <label for="q7a">Um campo que contém valores únicos para cada registro</label><br>
+                    <input type="radio" name="q7" value="b" id="q7b">
+                    <label for="q7b">Um campo que referencia uma chave estrangeira em outra tabela</label><br>
+                    <input type="radio" name="q7" value="c" id="q7c">
+                    <label for="q7c">Um campo que armazena o nome da tabela</label><br>
+                    <input type="radio" name="q7" value="d" id="q7d">
+                    <label for="q7d">Nenhuma das alternativas</label><br>
+                </li>
+                <li>
+                    <p class="pergunta">Qual a função do comando SQL "JOIN"?</p>
+                    <input type="radio" name="q8" value="a" id="q8a">
+                    <label for="q8a">Combinar dados de várias tabelas</label><br>
+                    <input type="radio" name="q8" value="b" id="q8b">
+                    <label for="q8b">Ordenar dados em uma tabela</label><br>
+                    <input type="radio" name="q8" value="c" id="q8c">
+                    <label for="q8c">Filtrar dados em uma tabela</label><br>
+                    <input type="radio" name="q8" value="d" id="q8d">
+                    <label for="q8d">Agrupar dados em uma tabela</label><br>
+                </li>
+                <li>
+                    <p class="pergunta">O que é uma transação em um banco de dados?</p>
+                    <input type="radio" name="q9" value="a" id="q9a">
+                    <label for="q9a">Uma unidade de trabalho que agrupa várias operações</label><br>
+                    <input type="radio" name="q9" value="b" id="q9b">
+                    <label for="q9b">Uma consulta que recupera dados de uma tabela</label><br>
+                    <input type="radio" name="q9" value="c" id="q9c">
+                    <label for="q9c">Um comando que insere dados em uma tabela</label><br>
+                    <input type="radio" name="q9" value="d" id="q9d">
+                    <label for="q9d">Nenhuma das alternativas</label><br>
+                </li>
+                <li>
+                    <p class="pergunta">Qual a diferença entre um banco de dados relacional e um banco de dados NoSQL?</p>
+                    <input type="radio" name="q10" value="a" id="q10a">
+                    <label for="q10a">Bancos de dados relacionais armazenam dados em tabelas, enquanto NoSQL usam outros formatos</label><br>
+                    <input type="radio" name="q10" value="b" id="q10b">
+                    <label for="q10b">Bancos de dados NoSQL armazenam dados em tabelas, enquanto relacionais usam outros formatos</label><br>
+                    <input type="radio" name="q10" value="c" id="q10c">
+                    <label for="q10c">Não há diferença, são apenas nomes diferentes</label><br>
+                    <input type="radio" name="q10" value="d" id="q10d">
+                    <label for="q10d">Nenhuma das alternativas</label><br>
+                </li> 
+            </ul>
+            <div class="simulado" id="simulado2">
+            <button onclick="corrigirSimulado2()">Corrigir</button>
+            <div class="feedback" id="feedbackSimulado2">
+                <p></p>
+                <ul></ul>
+            </div>
+            </div>
+            </form>
+        </section>
+
+        <section id="materia3">
+            <h2>Engenharia de Software</h2>
+            <img src="./img/25.-Engenharia-de-Software.webp">
+            <p>Nesta disciplina, você aprenderá sobre os processos, métodos e ferramentas para desenvolver software de alta qualidade.</p>
+
+            <h3>Simulado de Engenharia de Software</h3>
+            <p>Teste seus conhecimentos! Responda às questões a seguir e descubra seu nível de conhecimento em Engenharia de Software.</p>
+            <form id="simulado3" class="simulado">
+            <ul>
+                <li>
+                    <p class="pergunta">Qual o principal objetivo da fase de análise de requisitos em um projeto de software?</p>
+                    <input type="radio" name="q11" value="a" id="q11a">
+                    <label for="q11a">Identificar e documentar as necessidades e expectativas dos usuários e stakeholders</label><br>
+                    <input type="radio" name="q11" value="b" id="q11b">
+                    <label for="q11b">Projetar a arquitetura do sistema</label><br>
+                    <input type="radio" name="q11" value="c" id="q11c">
+                    <label for="q11c">Implementar o código do software</label><br>
+                    <input type="radio" name="q11" value="d" id="q11d">
+                    <label for="q11d">Testar o software desenvolvido</label><br>
+                </li>
+                <li>
+                    <p class="pergunta">O que é um diagrama UML e para que serve?</p>
+                    <input type="radio" name="q12" value="a" id="q12a">
+                    <label for="q12a">Uma linguagem de programação visual</label><br>
+                    <input type="radio" name="q12" value="b" id="q12b">
+                    <label for="q12b">Uma ferramenta de gerenciamento de projetos</label><br>
+                    <input type="radio" name="q12" value="c" id="q12c">
+                    <label for="q12c">Uma linguagem de modelagem visual para representar a estrutura e o comportamento de sistemas de software</label><br>
+                    <input type="radio" name="q12" value="d" id="q12d">
+                    <label for="q12d">Um sistema de gerenciamento de banco de dados</label><br>
+                </li>
+                <li>
+                    <p class="pergunta">Quais são os princípios básicos do desenvolvimento ágil de software?</p>
+                    <input type="radio" name="q13" value="a" id="q13a">
+                    <label for="q13a">Planejamento detalhado, processos rigorosos e documentação extensa</label><br>
+                    <input type="radio" name="q13" value="b" id="q13b">
+                    <label for="q13b">Indivíduos e interações, software em funcionamento, colaboração com o cliente e resposta a mudanças</label><br>
+                    <input type="radio" name="q13" value="c" id="q13c">
+                    <label for="q13c">Cascata, espiral e prototipagem</label><br>
+                    <input type="radio" name="q13" value="d" id="q13d">
+                    <label for="q13d">Nenhuma das alternativas</label><br>
+                </li>
+                <li>
+                    <p class="pergunta">O que é teste de software e qual sua importância no desenvolvimento de um projeto?</p>
+                    <input type="radio" name="q14" value="a" id="q14a">
+                    <label for="q14a">É a fase de implementação do código</label><br>
+                    <input type="radio" name="q14" value="b" id="q14b">
+                    <label for="q14b">É o processo de identificar e corrigir erros no software, garantindo sua qualidade e funcionalidade</label><br>
+                    <input type="radio" name="q14" value="c" id="q14c">
+                    <label for="q14c">É a fase de coleta de requisitos</label><br>
+                    <input type="radio" name="q14" value="d" id="q14d">
+                    <label for="q14d">Nenhuma das alternativas</label><br>
+                </li>
+                <li>
+                    <p class="pergunta">Qual a diferença entre verificação e validação de software?</p>
+                    <input type="radio" name="q15" value="a" id="q15a">
+                    <label for="q15a">Verificação garante que o software está sendo construído corretamente, enquanto validação garante que o software correto está sendo construído</label><br>
+                    <input type="radio" name="q15" value="b" id="q15a">
+                    <label for="q15b">São sinônimos, não há diferença</label><br>
+                    <input type="radio" name="q15" value="c" id="q15c">
+                    <label for="q15c">Validação garante que o software está sendo construído corretamente, enquanto verificação garante que o software correto está sendo construído</label><br>
+                    <input type="radio" name="q15" value="d" id="q15d">
+                    <label for="q15d">Nenhuma das alternativas</label><br>
+                </li> 
+            </ul>
+            <div class="simulado" id="simulado3">
+                <ol>
+                    </ol>
+                <button onclick="corrigirSimulado3()">Corrigir</button>
+                <div class="feedback" id="feedbackSimulado3">
+                    <p></p>
+                    <ul></ul>
+                </div>
+            </div> 
+            </form>
+        </section>
+
+        <button onclick="exibirResultadoFinal()">Exibir Resultado Final</button>
+        <div id="resultadoFinal"></div>
+
+        <footer>
+            <div class="footer" id="contato">
+                <p>
+                    (19) 9 9333-3333
+                </p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script> 
+</body>
+</html>
