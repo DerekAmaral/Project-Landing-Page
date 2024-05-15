@@ -1,0 +1,157 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #09e014;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 200px;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+
+.simulado {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.simulado h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.simulado ol {
+    list-style: none;
+    padding: 0;
+}
+
+.simulado li {
+    margin-bottom: 15px;
+}
+
+.simulado p {
+    margin-bottom: 5px;
+}
+
+.simulado input[type="radio"] {
+    margin-right: 10px;
+}
+
+.simulado label {
+    cursor: pointer;
+}
+
+.simulado button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.feedback {
+    display: none;
+    margin-top: 20px;
+}
+
+.feedback p {
+    font-weight: bold;
+}
+
+.feedback ul {
+    list-style: disc;
+    padding: 0;
+}
+
+.feedback li {
+    margin-bottom: 5px;
+}
+
+.feedback li span {
+    font-weight: normal;
+}
+
+.feedback .correto {
+    color: green;
+}
+
+.feedback .incorreto {
+    color: red;
+}
+
+#resultadoFinal {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#resultadoFinal h2 {
+    text-align: center;
+}
+
+.parabens {
+    color: green;
+    font-weight: bold;
+}
+
+.footer {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pergunta {
+    font-size: 18px;
+    font-weight: bold;
+}
